@@ -1,5 +1,12 @@
 # Ruang Bernoulli: Misi Dadu
 
+> **Arsip validasi ahli media — versi SEBELUM revisi OTO.**
+> Repo ini snapshot dari `austinvinn/ruang-bernoulli-misi-dadu` commit `e21f532` (2026-11-05),
+> yaitu keadaan tepat sebelum commit `7059e9a` "revisi OTO". Isi media tidak diubah; satu-satunya
+> perubahan adalah `wrangler.toml` (proyek Pages `misi-dadu-pra-oto` + D1 `misi-dadu-pra-oto-db`)
+> supaya tidak menyentuh data produksi.
+> Situs: https://misi-dadu-pra-oto.pages.dev · Versi terbaru tetap di https://misi-dadu.pages.dev
+
 **LKM digital** (lembar kerja mahasiswa) untuk topik **Distribusi Bernoulli**.
 **Satu percobaan = satu lemparan** (satu atau dua dadu), lima bagian lembar kerja, materi yang
 terbuka setelah siswa menemukan sendiri konsepnya. Light mode, tanpa build, **backend kecil di

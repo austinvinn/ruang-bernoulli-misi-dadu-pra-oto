@@ -1,8 +1,8 @@
-name = "misi-dadu"
+name = "misi-dadu-pra-oto"
 compatibility_date = "2025-01-01"
 pages_build_output_dir = "."
 
 [[d1_databases]]
 binding = "DB"
-database_name = "misi-dadu-db"
-database_id = "9427d3b0-849c-4121-a680-558c11af7199"
+database_name = "misi-dadu-pra-oto-db"
+database_id = "16579119-3720-4e4e-93d7-fdd17014c71a"
