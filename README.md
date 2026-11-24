@@ -6,6 +6,10 @@
 > perubahan adalah `wrangler.toml` (proyek Pages `misi-dadu-pra-oto` + D1 `misi-dadu-pra-oto-db`)
 > supaya tidak menyentuh data produksi.
 > Situs: https://misi-dadu-pra-oto.pages.dev · Versi terbaru tetap di https://misi-dadu.pages.dev
+>
+> **Akses tanpa kode:** tautan arsip langsung membuka lembar kerja, tanpa kode akses. Sesi tidak
+> dibuat dan jawaban penilai hanya tersimpan di perangkatnya (mode lokal), tidak dikirim ke D1.
+> Halaman `/rekap.html` tetap memerlukan kode pengembang/baca karena memuat data peserta.
 
 **LKM digital** (lembar kerja mahasiswa) untuk topik **Distribusi Bernoulli**.
 **Satu percobaan = satu lemparan** (satu atau dua dadu), lima bagian lembar kerja, materi yang
@@ -34,7 +38,7 @@ Program Studi Pendidikan Matematika · Fakultas Keguruan dan Ilmu Pendidikan · 
 | Panel **Materi** terkunci sampai semua butir bagian itu terjawab | ✅ jalan |
 | Rumus KaTeX lokal (tanpa CDN) | ✅ jalan |
 | Papan Data (aturan, |A|, |Ω|, p, hasil, kode laporan) | ✅ jalan |
-| Gerbang kode akses (kode kelas / kode pengembang) | ✅ jalan |
+| Gerbang kode akses (kode kelas / kode pengembang) | **dimatikan di arsip** — media langsung terbuka; `/rekap.html` tetap ber-kode |
 | Pengumpulan jawaban ke D1 + outbox luring | ✅ jalan |
 | Halaman pengembang `/rekap.html` (tabel, filter kelas, unduh CSV, kelola kode) | ✅ jalan |
 | Ekspor ke Google Sheets (IMPORTDATA otomatis + opsi Apps Script) | ✅ jalan |

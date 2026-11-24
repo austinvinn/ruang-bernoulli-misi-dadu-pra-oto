@@ -9,6 +9,11 @@
 (function (root) {
   "use strict";
 
+  /* Arsip validasi ahli: media dibuka langsung tanpa kode akses.
+     Sesi tidak dibuat; jawaban tetap tersimpan di perangkat (mode lokal)
+     dan tidak dikirim ke D1 arsip. rekap.html tetap memakai kode. */
+  var TANPA_KODE = true;
+
   var CACHE = "rb-sesi-v1";
   var sesi = {
     siap: false, mode: "memuat", peran: null, kelas: "", nama: "", nim: "", id: null,
@@ -42,6 +47,11 @@
   }
 
   function cek() {
+    if (TANPA_KODE) {
+      sesi.siap = true;
+      sesi.mode = "lokal";
+      return Promise.resolve(sesi);
+    }
     return api("/api/saya", { method: "GET" })
       .then(function (r) {
         sesi.siap = true;
